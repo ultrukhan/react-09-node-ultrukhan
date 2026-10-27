@@ -1,0 +1,19 @@
+{
+  "name": "node-task",
+  "version": "1.0.0",
+  "description": "Implement an http server (you can use ExpressJS) that initiates asynchronous operations when a GET request is made:\r - Continuous output to the server console of the current date and time in UTC format at certain intervals.\r - Stopping the console output sending time after a while and completing the server response with the return to the user of the current date and time of shutdown in UTC format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "nrevutska",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
